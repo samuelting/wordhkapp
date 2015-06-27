@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="hk.work.beta" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>粵典</name>
+<widget id="hk.work.beta" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>粵典 - alpha</name>
     <description>
        試下work 唔work 炸 
     </description>
-    <author email="samueltingko@gmail.com" href="http://words.hk">
+	<author email="samueltingko@gmail.com" href="https://codememo.wordpress.com/">
 		Samuel Ting
 	</author>
     <content src="index.html" />
+	<preference name="SplashScreenDelay" value="3000" />
+	<preference name="SplashScreen" value="screen"/>
 	<platform name="android">
 		<splash src="res/screen/android/ldpi-landscape.png" density="land-ldpi" />
 		<splash src="res/screen/android/ldpi-portrait.png" density="port-ldpi" />

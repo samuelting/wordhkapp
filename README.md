@@ -1,4 +1,4 @@
-粵典app beta
+粵典app [alpha prototype]
 =================
 
 Project Description
@@ -17,7 +17,11 @@ Cordova plugins list:
 -------------
 
 org.apache.cordova.console 0.2.13
+
 org.apache.cordova.device 0.3.0
+
 org.apache.cordova.dialogs 0.3.0 
+
 org.apache.cordova.network-information 0.2.15 
+
 org.apache.cordova.splashscreen 1.0.0

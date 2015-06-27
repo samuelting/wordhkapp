@@ -30,11 +30,11 @@
     <body>
       <script>
         document.addEventListener("deviceready",function(){
-          if (navigator.connection != Connection.NONE){
-            window.location.href = "http://words.hk/";
+          if (navigator.connection.type != Connection.NONE){
+            window.location.href = "http://beta.words.hk/";
           }else{
-            navigator.notification.alert("你要連上網先可以用粵典app",function(){
-              navigator.App.exitApp();
+            navigator.notification.alert("你需要連上網先可以用粵典app",function(){
+              navigator.app.exitApp();
             },
             "粵典",
             "OK");
