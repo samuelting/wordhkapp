@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="hk.work.beta" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>粵典</name>
+    <description>
+       試下work 唔work 炸 
+    </description>
+    <author email="samueltingko@gmail.com" href="http://words.hk">
+		Samuel Ting
+	</author>
+    <content src="index.html" />
+	<platform name="android">
+		<splash src="res/screen/android/ldpi-landscape.png" density="land-ldpi" />
+		<splash src="res/screen/android/ldpi-portrait.png" density="port-ldpi" />
+		<splash src="res/screen/android/mdpi-landscape.png" density="land-mdpi" />
+		<splash src="res/screen/android/mdpi-portrait.png" density="port-mdpi" />
+		<splash src="res/screen/android/hdpi-landscape.png" density="land-hdpi" />
+		<splash src="res/screen/android/hdpi-portrait.png" density="port-hdpi" />
+		<splash src="res/screen/android/xhdpi-landscape.png" density="land-xhdpi" />
+		<splash src="res/screen/android/xhdpi-portrait.png" density="port-xhdpi" />
+
+		<icon src="res/icon/icon-192.png" density="xxxhdpi" />
+		<icon src="res/icon/icon-144.png" density="xxhdpi" />
+		<icon src="res/icon/icon-96.png" density="xhdpi" />
+		<icon src="res/icon/icon-72.png" density="hdpi" />
+		<icon src="res/icon/icon-48.png" density="mdpi" />
+		<icon src="res/icon/icon-36.png" density="ldpi" />
+	</platform>
+	<access origin="http://*" />
+	<access origin="https://*" />
+
+</widget>
